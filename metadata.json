@@ -1,0 +1,7 @@
+{
+  "name": "AsprintsAada",
+  "description": "A premium stay booking platform for students, professionals, and travelers. Find hostels, flats, and rooms with daily to yearly booking options across India.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
