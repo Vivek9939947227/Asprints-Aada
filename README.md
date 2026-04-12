@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Calculator Web App (React + Vite)
 
-# Run and deploy your AI Studio app
+A modern calculator web app built with React, TypeScript, and Tailwind classes in `index.html`.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qZ4LiiVXq-hJTqsOhqMK3MqFDtVUgvPg
+- Basic arithmetic: addition, subtraction, multiplication, division
+- Utility actions: clear (`AC`), toggle sign (`+/-`), percent (`%`)
+- Decimal number support
+- Chained operations (`2 + 3 × 4` style interactions)
+- Responsive calculator layout with a mobile-friendly UI
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Run locally
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start dev server:
+   ```bash
+   npm run dev
+   ```
+3. Build production bundle:
+   ```bash
+   npm run build
+   ```
